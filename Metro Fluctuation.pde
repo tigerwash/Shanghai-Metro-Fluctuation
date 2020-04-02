@@ -7,8 +7,6 @@
 //Producer: Longtai Liao & Ruixin Chen
 
 
-
-
 Table  myData = new Table();  // construct an instance of the class Table
 int nRows = myData.getRowCount();
 int nColumns;// sizes of the table
@@ -157,15 +155,8 @@ void mouseClicked(){
     L13 = false;
     L16 = false;
    }
-    
-    
-    
+ 
   }
-  
-
-
-
-
 
 
 void draw() {
@@ -267,9 +258,7 @@ void draw() {
     shape(Line16,0,0);
     }       
     
-    
-    
-    
+
       // show you have chosed the line
       if(L1==true){
       strokeWeight(4);
@@ -462,14 +451,7 @@ void draw() {
     
   }
  
-  
 
-    
-  
-  
-
-
-    
   if (Row == 365 ) Row = 0;  // restart the program 
     if (Row<366 && Line == true) {
     Row++;
@@ -743,13 +725,9 @@ void draw() {
   //home button
   image(home, 1095, 425);
     
-  
-  
-  
-    }
-    
 
-    
+    }
+ 
     }
     
   
